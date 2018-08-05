@@ -1,0 +1,72 @@
+@import url(../css/base.css);
+.bg{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: #fafafa;
+    overflow: hidden;
+}
+.pic_box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.pic_box .box{
+    width: 100%;
+    height: 100%;
+    background: rgba(250,250,250,0.15);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pic_box .voice{
+    width: 6.54rem;
+    height: 2.18rem;
+    position: absolute;
+    top: 2.86rem;
+    left: 0.5rem;
+}
+.pic_box .green{
+    width: 2.4rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    font-family: "苹方";
+    color: #b7b7b7;
+    text-align: center;
+    line-height: 0.54rem;
+    position: absolute;
+    top: 5.79rem;
+    left: 2.58rem;
+}
+.pic_box .gray{
+    width: 3.6rem;
+    font-size: 0.22rem;
+    font-weight: bold;
+    font-family: "苹方";
+    color: #b7b7b7;
+    text-align: center;
+    line-height: 0.54rem;
+    position: absolute;
+    top:6.27rem;
+    left: 2.09rem;
+}
+.know{
+    width: 3.55rem;
+    height: 0.7rem;
+background: #e7e3e3;
+border-radius: 0.35rem;
+border: none;
+position: absolute;
+left: 2.04rem;
+bottom: 2.32rem;
+color: #fff;
+font-size: 0.24rem;
+font-family: "苹方";
+background-image: -webkit-linear-gradient(left,#ffab32,#ffcd37);
+background-image: -moz-linear-gradient(left,#ffab32,#ffcd37);
+background-image: -ms-linear-gradient(left,#ffab32,#ffcd37);
+background-image: -o-linear-gradient(left,#ffab32,#ffcd37);
+box-shadow: 0 0.03rem 0.15rem 0.07rem rgba(248,242,152,0.75);
+}

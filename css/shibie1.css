@@ -1,0 +1,22 @@
+@import url(../css/base.css);
+.bg{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: #fafafa;
+}
+.box{
+    width: 3.79rem;
+    height: 5.01rem;
+    background: #f6f6f6;
+    border: 7px solid #efefef;
+    margin: 2.12rem auto 3.15rem;
+}
+h3{
+    color: #a7a8aa;
+    font-size: 0.3rem;
+    font-family: "苹方";
+    text-align: center;
+}

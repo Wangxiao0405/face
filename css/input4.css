@@ -1,0 +1,166 @@
+@import url(../css/base.css);
+.bg{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: #fafafa;
+}
+.circle_big{
+    width: 2.72rem;
+    height: 2.72rem;
+    background: rgba(220,240,231,0.3);
+    border-radius: 50%;
+    margin: 1.51rem auto 0;
+    position: relative;
+}
+.circle_middle{
+    width: 2.46rem;
+    height: 2.46rem;
+    background: rgba(220,240,231,0.4);
+    border-radius: 50%;
+    position: absolute;
+    top:0.14rem;
+    left: 0.14rem;
+}
+.circle_small{
+    width: 2.18rem;
+    height: 2.18rem;
+    background: #dcf0e7;
+    position: absolute;
+    top:0.27rem;
+    left: 0.27rem;
+    border-radius: 50%;
+}
+.head{
+    width: 0.67rem;
+    height: 0.67rem;
+    background-image: -webkit-linear-gradient(top,#33d14f,#33c38e);
+    background-image: -moz-linear-gradient(top,#33d14f,#33c38e);
+    background-image: -ms-linear-gradient(top,#33d14f,#33c38e);
+    background-image: -o-linear-gradient(top,#33d14f,#33c38e);
+    box-shadow: 0 0.08rem 0.15rem 0.04rem rgba(123,209,174,0.75);
+    border-radius: 50%;
+    position: absolute;
+    top:0.61rem;
+    left:1.02rem;
+}
+.body{
+    width: 1.24rem;
+    height: 0.6rem;
+    background-image: -webkit-linear-gradient(top,#33d14f,#33c38e);
+    background-image: -moz-linear-gradient(top,#33d14f,#33c38e);
+    background-image: -ms-linear-gradient(top,#33d14f,#33c38e);
+    background-image: -o-linear-gradient(top,#33d14f,#33c38e);
+    box-shadow: 0 0.08rem 0.15rem 0.04rem rgba(123,209,174,0.75);
+    border-radius: 0.35rem;
+    position: absolute;
+    top:1.36rem;
+    left: 0.72rem;
+}
+.green{
+    width: 3.2rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+    font-family: "苹方";
+    color: #33cd62;
+    text-align: center;
+    line-height: 0.54rem;
+    margin: 0.5rem auto 0;
+}
+.gray{
+    width: 4.0rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    font-family: "苹方";
+    color: #b0aeae;
+    text-align: center;
+    line-height: 0.54rem;
+    margin: 0 auto;
+}
+.warning{
+    width: 2.7rem;
+    height: 0.42rem;
+    margin-top: 1.2rem;
+    margin-left: 1.43rem;
+}
+.left{
+    width: 0.25rem;
+    height: 0.25rem;
+    background: red;
+    border-radius: 50%;
+    float: left;
+    font-size: 0.20rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.25rem;
+    margin: 0.08rem 0.2rem 0 0.02rem;
+    box-shadow: 0 0.01rem 0.15rem 0.01rem rgba(255,45,65,0.75);
+}
+.right{
+    width: 2rem;
+    height: 100%;
+    float: left;
+    font-size: 0.22rem;
+    color: red;
+    text-align: center;
+    line-height: 0.42rem;
+}
+.box{
+    width: 5.3rem;
+    height: 0.6rem;
+    border-bottom: 0.02rem solid red;
+    margin-left: 1.12rem;
+    position: relative;
+    /*background: red;*/
+}
+.orange{
+    width: 0.18rem;
+    height: 0.08rem;
+    background: #fcd45e;
+    margin-top:0.26rem;
+    margin-left: 0.02rem;
+    border-radius: 0.04rem;
+    box-shadow: 0 0.03rem 0.15rem 0.03rem rgba(243,223,173,0.75);
+    float: left;
+}
+.name{
+    display: block;
+    height: 100%;
+    width: 2.02rem;
+    margin-left: 0.24rem;
+    float: left;
+    border: none;
+    background: #fafafa;
+}
+.text{
+    color: #b0aeae;
+    font-size: 0.22rem;
+    font-family: "苹方";
+    position: absolute;
+    left: 0.42rem;
+    top:0.16rem;
+}
+.fault{
+    color: red;
+    font-size: 0.22rem;
+    font-family: "苹方";
+    position: absolute;
+    right: 0;
+    top:0.16rem;
+}
+.begin{
+    width: 3.55rem;
+    height: 0.7rem;
+    background: #e7e3e3;
+    border-radius: 0.35rem;
+    border: none;
+    position: absolute;
+    left: 2rem;
+    bottom: 2.32rem;
+    color: #b8b6b5;
+    font-size: 0.24rem;
+    font-family: "苹方";
+}

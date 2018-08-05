@@ -1,0 +1,44 @@
+@import url(../css/base.css);
+.bg{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: #fafafa;
+}
+.box{
+    width: 3.79rem;
+    height: 5.01rem;
+    background: #f6f6f6;
+    border: 7px solid #efefef;
+    margin: 2.12rem auto 2.58rem;
+}
+.circle_box{
+    width: 1.34rem;
+    height: 0.16rem;
+    margin: 0 auto 0.42rem;
+}
+.circle{
+    width: 0.16rem;
+    height:0.16rem;
+    border-radius: 50%;
+    background: #26c688;
+    float: left;
+    margin-right: 0.12rem;
+}
+.circle:last-child{
+    margin-right: 0;
+}
+.circle1{
+    background: #d0f0e3;
+}
+.circle2{
+    background: #7bdbb5;
+}
+h3{
+    color: #a7a8aa;
+    font-size: 0.3rem;
+    font-family: "苹方";
+    text-align: center;
+}
