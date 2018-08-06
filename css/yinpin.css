@@ -55,18 +55,24 @@
 .know{
     width: 3.55rem;
     height: 0.7rem;
-background: #e7e3e3;
-border-radius: 0.35rem;
-border: none;
-position: absolute;
-left: 2.04rem;
-bottom: 2.32rem;
-color: #fff;
-font-size: 0.24rem;
-font-family: "苹方";
-background-image: -webkit-linear-gradient(left,#ffab32,#ffcd37);
-background-image: -moz-linear-gradient(left,#ffab32,#ffcd37);
-background-image: -ms-linear-gradient(left,#ffab32,#ffcd37);
-background-image: -o-linear-gradient(left,#ffab32,#ffcd37);
-box-shadow: 0 0.03rem 0.15rem 0.07rem rgba(248,242,152,0.75);
+    background: #e7e3e3;
+    border-radius: 0.35rem;
+    border: none;
+    position: absolute;
+    left: 2.04rem;
+    bottom: 2.32rem;
+    color: #fff;
+    font-size: 0.24rem;
+    font-family: "苹方";
+    background-image: -webkit-linear-gradient(left,#ffab32,#ffcd37);
+    background-image: -moz-linear-gradient(left,#ffab32,#ffcd37);
+    background-image: -ms-linear-gradient(left,#ffab32,#ffcd37);
+    background-image: -o-linear-gradient(left,#ffab32,#ffcd37);
+    box-shadow: 0 0.03rem 0.15rem 0.07rem rgba(248,242,152,0.75);
+}
+a{
+    width: 3.55rem;
+    height: 0.7rem;
+    display: block;
+    margin-left: 2rem;
 }

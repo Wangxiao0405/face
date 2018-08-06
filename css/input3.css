@@ -70,7 +70,7 @@
     margin: 0.5rem auto 0;
 }
 .gray{
-    width: 4.0rem;
+    width: 4.2rem;
     font-size: 0.24rem;
     font-weight: bold;
     font-family: "苹方";
@@ -139,4 +139,10 @@
     color: #fff;
     font-size: 0.24rem;
     font-family: "苹方";
+}
+a{
+    width: 3.55rem;
+    height: 0.7rem;
+    display: block;
+    margin-left: 2rem;
 }
